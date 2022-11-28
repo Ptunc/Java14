@@ -25,5 +25,6 @@ public class java14 {
             if(yolculukTipi == 1) System.out.println("toplam tutar: " + mesafe*2 + " TL");
             else System.out.println("toplam tutar: " + mesafe*2*0.8 + " TL");
         }
+        input.close();
     }
 }
